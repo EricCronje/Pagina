@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\DataSource\PaginationData\PaginationData.csproj" />
+    <ProjectReference Include="..\..\PaginaDll\Pagina.csproj" />
     <ProjectReference Include="..\PaginationCUtility\PaginationCUtility.csproj" />
-    <ProjectReference Include="..\PaginationData\PaginationData.csproj" />
-    <ProjectReference Include="..\Pagination\Pagination.csproj" />
   </ItemGroup>
 
 </Project>

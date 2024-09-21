@@ -1,5 +1,5 @@
 ﻿using System.Text;
-using Pn = Pagination.Pagination;
+using Pn = Pagina.Pagina;
 using Pu = PaginationCUtility.PaginationCUtility;
 
 namespace PaginationConsoleWithListUtility

@@ -17,10 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaginationConsoleWithListUtility\PaginationConsoleUtility.csproj" />
-    <ProjectReference Include="..\PaginationCUtility\PaginationCUtility.csproj" />
-    <ProjectReference Include="..\PaginationData\PaginationData.csproj" />
-    <ProjectReference Include="..\TestPaginationIntegrationCUtility\TestPaginationIntegrationCUtility.csproj" />
+    <ProjectReference Include="..\..\DataSource\PaginationData\PaginationData.csproj" />
+    <ProjectReference Include="..\..\Utilities\PaginationConsoleWithListUtility\PaginationConsoleUtility.csproj" />
+    <ProjectReference Include="..\..\Utilities\PaginationCUtility\PaginationCUtility.csproj" />
+    <ProjectReference Include="..\..\Utilities\TestPaginationIntegrationCUtility\TestPaginationIntegrationCUtility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

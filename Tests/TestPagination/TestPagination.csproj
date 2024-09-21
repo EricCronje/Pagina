@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Pagination\Pagination.csproj" />
+    <ProjectReference Include="..\..\PaginaDll\Pagina.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -16,7 +16,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
 
@@ -31,7 +31,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -48,7 +48,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -66,7 +66,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -85,7 +85,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -104,7 +104,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -124,7 +124,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -151,7 +151,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -181,7 +181,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -211,7 +211,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -236,7 +236,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -269,7 +269,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "n";
@@ -333,7 +333,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "p2";
@@ -351,7 +351,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "p3";
@@ -369,7 +369,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "p5";
@@ -387,7 +387,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             string? input = "p6";
@@ -441,7 +441,7 @@ namespace TestProjectPaginationConsoleWithList
             List<string> menuOptions;
             menuOptions = Pd.GetData();
             UInt32 pagesize = 2;
-            Pagination.Pagination pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
+            Pagina.Pagina pagination = new(pagesize, Convert.ToUInt32(menuOptions.Count));
             StringBuilder sbInstructions = new();
             StringBuilder validInputs = new();
             

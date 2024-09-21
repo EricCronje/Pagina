@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaginationConsoleWithListUtility\PaginationConsoleUtility.csproj" />
-    <ProjectReference Include="..\PaginationData\PaginationData.csproj" />
-    <ProjectReference Include="..\Pagination\Pagination.csproj" />
+    <ProjectReference Include="..\..\DataSource\PaginationData\PaginationData.csproj" />
+    <ProjectReference Include="..\..\PaginaDll\Pagina.csproj" />
+    <ProjectReference Include="..\..\Utilities\PaginationConsoleWithListUtility\PaginationConsoleUtility.csproj" />
   </ItemGroup>
 
 </Project>
