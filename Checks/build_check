@@ -1,0 +1,17 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  PaginationData -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\DataSource\PaginationData\bin\Debug\net8.0\PaginationData.dll
+  PaginationCUtility -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Utilities\PaginationCUtility\bin\Debug\net8.0\PaginationCUtility.dll
+  PaginationConsole -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Examples\PaginationConsole\bin\Debug\net8.0\PaginationConsole.dll
+  TestPaginationIntegrationCUtility -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Utilities\TestPaginationIntegrationCUtility\bin\Debug\net8.0\TestPaginationIntegrationCUtility.dll
+  Pagina -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\PaginaDll\bin\Debug\net8.0\Pagina.dll
+  PaginationConsoleUtility -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Utilities\PaginationConsoleWithListUtility\bin\Debug\net8.0\PaginationConsoleUtility.dll
+  TestPagination -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestPagination\bin\Debug\net8.0\TestPagination.dll
+  PaginationIntegrationConsole -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Examples\PaginationConsoleWithList\bin\Debug\net8.0\PaginationIntegrationConsole.dll
+  TestPaginationIntegrationConsole -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestProjectPaginationConsoleWithList\bin\Debug\net8.0\TestPaginationIntegrationConsole.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
