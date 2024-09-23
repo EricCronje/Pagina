@@ -43,28 +43,19 @@
             uint page = GetLastItemOnPage() / PageSize;
             uint mod = GetLastItemOnPage() % PageSize;
             if (mod > 0) { page += 1; }
-            if (page == 0) { page = 1; FirstItemNumber = 1; }
+            if (page == 0) { page = 1; GoToPage(1); }
             return page;
         }
 
         public uint GetNextPage()
         {
-            var prevNumber = FirstItemNumber;
-            FirstItemNumber = GetLastItemOnPage() + 1;
-            if (GetCurrentPageNumber() > TotalPages)
-            {
-                FirstItemNumber = prevNumber;
-            }
+	    GoToPage(GetCurrentPageNumber() + 1);
             return GetCurrentPageNumber();
         }
 
         public uint GetPreviousPage()
         {
-            FirstItemNumber -= PageSize;
-            if (FirstItemNumber < 0)
-            {
-                FirstItemNumber = 1;
-            }
+            GoToPage(GetCurrentPageNumber() - 1);
             return GetCurrentPageNumber();
         }
 
