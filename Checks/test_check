@@ -1,8 +1,12 @@
   Determining projects to restore...
+C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestPagination\TestPagination.csproj : warning NU1900: Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json. [C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Pagina.sln]
+C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestProjectPaginationConsoleWithList\TestPaginationIntegrationConsole.csproj : warning NU1900: Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json. [C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Pagina.sln]
   All projects are up-to-date for restore.
-  PaginationData -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\DataSource\PaginationData\bin\Debug\net8.0\PaginationData.dll
-  Pagina -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\PaginaDll\bin\Debug\net8.0\Pagina.dll
+C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestProjectPaginationConsoleWithList\TestPaginationIntegrationConsole.csproj : warning NU1900: Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.
+C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestPagination\TestPagination.csproj : warning NU1900: Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.
   PaginationCUtility -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Utilities\PaginationCUtility\bin\Debug\net8.0\PaginationCUtility.dll
+  Pagina -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\PaginaDll\bin\Debug\net8.0\Pagina.dll
+  PaginationData -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\DataSource\PaginationData\bin\Debug\net8.0\PaginationData.dll
   TestPaginationIntegrationCUtility -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Utilities\TestPaginationIntegrationCUtility\bin\Debug\net8.0\TestPaginationIntegrationCUtility.dll
   PaginationConsoleUtility -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Utilities\PaginationConsoleWithListUtility\bin\Debug\net8.0\PaginationConsoleUtility.dll
   TestPagination -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestPagination\bin\Debug\net8.0\TestPagination.dll
@@ -11,8 +15,8 @@ Microsoft (R) Test Execution Command Line Tool Version 17.10.0 (x64)
 Copyright (c) Microsoft Corporation.  All rights reserved.
 
 Starting test execution, please wait...
-A total of 1 test files matched the specified pattern.
   TestPaginationIntegrationConsole -> C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestProjectPaginationConsoleWithList\bin\Debug\net8.0\TestPaginationIntegrationConsole.dll
+A total of 1 test files matched the specified pattern.
 Test run for C:\_FLAP03\GBZZBEBJ\Working\utilities\Pagina\Tests\TestProjectPaginationConsoleWithList\bin\Debug\net8.0\TestPaginationIntegrationConsole.dll (.NETCoreApp,Version=v8.0)
 Microsoft (R) Test Execution Command Line Tool Version 17.10.0 (x64)
 Copyright (c) Microsoft Corporation.  All rights reserved.
@@ -20,6 +24,6 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 
-Passed!  - Failed:     0, Passed:    35, Skipped:     0, Total:    35, Duration: 24 ms - TestPagination.dll (net8.0)
+Passed!  - Failed:     0, Passed:    25, Skipped:     0, Total:    25, Duration: 25 ms - TestPaginationIntegrationConsole.dll (net8.0)
 
-Passed!  - Failed:     0, Passed:    25, Skipped:     0, Total:    25, Duration: 24 ms - TestPaginationIntegrationConsole.dll (net8.0)
+Passed!  - Failed:     0, Passed:    35, Skipped:     0, Total:    35, Duration: 27 ms - TestPagination.dll (net8.0)
