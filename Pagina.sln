@@ -3,34 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pagina", "PaginaDll\Pagina.csproj", "{A202E882-DF1F-49BB-B800-03B9E3133095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pagina", "DotNet8.0\PaginaDll\Pagina.csproj", "{A202E882-DF1F-49BB-B800-03B9E3133095}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{6C701528-FE3C-4C89-9E1F-8F53710AA804}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPaginationIntegrationCUtility", "Utilities\TestPaginationIntegrationCUtility\TestPaginationIntegrationCUtility.csproj", "{900267CF-8234-4B1D-B1FB-A4C9322E7F9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPaginationIntegrationCUtility", "DotNet8.0\Utilities\TestPaginationIntegrationCUtility\TestPaginationIntegrationCUtility.csproj", "{900267CF-8234-4B1D-B1FB-A4C9322E7F9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationCUtility", "Utilities\PaginationCUtility\PaginationCUtility.csproj", "{A29B2D5B-9575-4E80-A18C-FD0FE1B46A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationCUtility", "DotNet8.0\Utilities\PaginationCUtility\PaginationCUtility.csproj", "{A29B2D5B-9575-4E80-A18C-FD0FE1B46A38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationConsoleUtility", "Utilities\PaginationConsoleWithListUtility\PaginationConsoleUtility.csproj", "{7F394573-6C70-4528-B7C9-D120770D7BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationConsoleUtility", "DotNet8.0\Utilities\PaginationConsoleWithListUtility\PaginationConsoleUtility.csproj", "{7F394573-6C70-4528-B7C9-D120770D7BA0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datasource", "Datasource", "{34102C7E-4CE5-4BA7-BCD7-2CECE91E5E68}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationData", "DataSource\PaginationData\PaginationData.csproj", "{454D0408-C55D-40FF-B03F-E6CC470094B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationData", "DotNet8.0\DataSource\PaginationData\PaginationData.csproj", "{454D0408-C55D-40FF-B03F-E6CC470094B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F99B9192-7ABE-4AE8-9E23-4C6FE33B55EE}"
-	ProjectSection(SolutionItems) = preProject
-		Tests\TestPagination\TestPagination.csproj = Tests\TestPagination\TestPagination.csproj
-	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPaginationIntegrationConsole", "Tests\TestProjectPaginationConsoleWithList\TestPaginationIntegrationConsole.csproj", "{755ED352-7B10-4106-A6CA-EBFD8AE9892B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPaginationIntegrationConsole", "DotNet8.0\Tests\TestProjectPaginationConsoleWithList\TestPaginationIntegrationConsole.csproj", "{755ED352-7B10-4106-A6CA-EBFD8AE9892B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{7B2F3B7C-6B11-4C7D-8589-C10913EF07EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationConsole", "Examples\PaginationConsole\PaginationConsole.csproj", "{D7F2B1D4-4673-4660-B450-862E5260B3B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationConsole", "DotNet8.0\Examples\PaginationConsole\PaginationConsole.csproj", "{D7F2B1D4-4673-4660-B450-862E5260B3B7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationIntegrationConsole", "Examples\PaginationConsoleWithList\PaginationIntegrationConsole.csproj", "{541BCDC9-4FDA-4D04-A88F-8A75A06C4AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationIntegrationConsole", "DotNet8.0\Examples\PaginationConsoleWithList\PaginationIntegrationConsole.csproj", "{541BCDC9-4FDA-4D04-A88F-8A75A06C4AD5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPagination", "Tests\TestPagination\TestPagination.csproj", "{DF9DCB0E-E61A-481A-9CBB-0615CE767135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPagination", "DotNet8.0\Tests\TestPagination\TestPagination.csproj", "{DF9DCB0E-E61A-481A-9CBB-0615CE767135}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet4.8", "DotNet4.8", "{1E13FB21-DF2D-4D4A-AC96-0DCD274D01E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagina", "DotNet4.8\Pagina\Pagina.csproj", "{31E74CEA-B73E-4236-AC1B-06C03F72F41E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datasource", "Datasource", "{E5D6A163-FEB7-44FF-8BC1-8A5BC76AE531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginationData", "DotNet4.8\PaginationData\PaginationData.csproj", "{4004AAD0-2405-48B7-90DF-1031A8CC4B72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet8.0", "DotNet8.0", "{DC04449E-8F44-470E-A665-FEAFFB09549F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9C1EBAF4-CF2E-474D-8936-F76F9A04B7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDatasourceDornet4.8", "DotNet4.8\Tests\UnitTestDatasourceDornet4.8\UnitTestDatasourceDornet4.8.csproj", "{CBEDFB14-A096-4D5A-A6A2-EDB76C82B7AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,19 +85,40 @@ Global
 		{DF9DCB0E-E61A-481A-9CBB-0615CE767135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF9DCB0E-E61A-481A-9CBB-0615CE767135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF9DCB0E-E61A-481A-9CBB-0615CE767135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E74CEA-B73E-4236-AC1B-06C03F72F41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E74CEA-B73E-4236-AC1B-06C03F72F41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E74CEA-B73E-4236-AC1B-06C03F72F41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E74CEA-B73E-4236-AC1B-06C03F72F41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4004AAD0-2405-48B7-90DF-1031A8CC4B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4004AAD0-2405-48B7-90DF-1031A8CC4B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4004AAD0-2405-48B7-90DF-1031A8CC4B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4004AAD0-2405-48B7-90DF-1031A8CC4B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEDFB14-A096-4D5A-A6A2-EDB76C82B7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEDFB14-A096-4D5A-A6A2-EDB76C82B7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEDFB14-A096-4D5A-A6A2-EDB76C82B7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEDFB14-A096-4D5A-A6A2-EDB76C82B7AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{6C701528-FE3C-4C89-9E1F-8F53710AA804} = {DC04449E-8F44-470E-A665-FEAFFB09549F}
 		{900267CF-8234-4B1D-B1FB-A4C9322E7F9F} = {6C701528-FE3C-4C89-9E1F-8F53710AA804}
 		{A29B2D5B-9575-4E80-A18C-FD0FE1B46A38} = {6C701528-FE3C-4C89-9E1F-8F53710AA804}
 		{7F394573-6C70-4528-B7C9-D120770D7BA0} = {6C701528-FE3C-4C89-9E1F-8F53710AA804}
+		{34102C7E-4CE5-4BA7-BCD7-2CECE91E5E68} = {DC04449E-8F44-470E-A665-FEAFFB09549F}
 		{454D0408-C55D-40FF-B03F-E6CC470094B4} = {34102C7E-4CE5-4BA7-BCD7-2CECE91E5E68}
+		{F99B9192-7ABE-4AE8-9E23-4C6FE33B55EE} = {DC04449E-8F44-470E-A665-FEAFFB09549F}
 		{755ED352-7B10-4106-A6CA-EBFD8AE9892B} = {F99B9192-7ABE-4AE8-9E23-4C6FE33B55EE}
+		{7B2F3B7C-6B11-4C7D-8589-C10913EF07EA} = {DC04449E-8F44-470E-A665-FEAFFB09549F}
 		{D7F2B1D4-4673-4660-B450-862E5260B3B7} = {7B2F3B7C-6B11-4C7D-8589-C10913EF07EA}
 		{541BCDC9-4FDA-4D04-A88F-8A75A06C4AD5} = {7B2F3B7C-6B11-4C7D-8589-C10913EF07EA}
 		{DF9DCB0E-E61A-481A-9CBB-0615CE767135} = {F99B9192-7ABE-4AE8-9E23-4C6FE33B55EE}
+		{31E74CEA-B73E-4236-AC1B-06C03F72F41E} = {1E13FB21-DF2D-4D4A-AC96-0DCD274D01E0}
+		{E5D6A163-FEB7-44FF-8BC1-8A5BC76AE531} = {1E13FB21-DF2D-4D4A-AC96-0DCD274D01E0}
+		{4004AAD0-2405-48B7-90DF-1031A8CC4B72} = {E5D6A163-FEB7-44FF-8BC1-8A5BC76AE531}
+		{9C1EBAF4-CF2E-474D-8936-F76F9A04B7F1} = {1E13FB21-DF2D-4D4A-AC96-0DCD274D01E0}
+		{CBEDFB14-A096-4D5A-A6A2-EDB76C82B7AE} = {9C1EBAF4-CF2E-474D-8936-F76F9A04B7F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A10182C-9049-4041-B4D6-887C05842739}
