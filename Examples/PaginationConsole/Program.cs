@@ -1,11 +1,9 @@
-﻿using P = Pagina.Pagina;
-
+﻿// See https://aka.ms/new-console-template for more information
+using P = Pagina.Pagina;
 const string cCaptionPageSize = "Page size?";
 const string cCaptionTotalCount = "Total items?";
-
 const string cCaptionPage = "Page:";
 //0. Add new const for menu option {AD41F151-F4E2-40D0-9572-8C134D10A05B}
-
 const string cInputQuestion = "Choice?";
 const string cOptionExit = "x";
 const string cOptionCaptionExit = " (exit)";
