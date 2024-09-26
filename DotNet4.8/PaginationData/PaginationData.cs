@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace PaginationData
 {
-    public abstract class PaginationData
+    public abstract class PaginationData : IDisposable
     {
+        private List<string> MenuOptions;
+
+        public void Dispose()
+        {
+            MenuOptions = null;
+        }
+
         public virtual List<string> GetData()
         {
-            List<string> menuOptions = new List<string>
+            MenuOptions = new List<string>
             {
                 "Apple",
                 "Beetroot",
@@ -23,7 +30,7 @@ namespace PaginationData
                 "India"
             };
 
-            return menuOptions;
+            return MenuOptions;
         }
     }
 }

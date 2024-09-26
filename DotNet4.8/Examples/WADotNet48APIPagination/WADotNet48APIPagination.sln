@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WADotNet48APIPagination", "WADotNet48APIPagination\WADotNet48APIPagination.csproj", "{8133D402-E8ED-451D-8EB1-2CCB3FA043E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WADotNet48APIPagination.Tests", "WADotNet48APIPagination.Tests\WADotNet48APIPagination.Tests.csproj", "{C0D18086-7EC3-4FC0-9F6F-B1462F89FD82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8133D402-E8ED-451D-8EB1-2CCB3FA043E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8133D402-E8ED-451D-8EB1-2CCB3FA043E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8133D402-E8ED-451D-8EB1-2CCB3FA043E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8133D402-E8ED-451D-8EB1-2CCB3FA043E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D18086-7EC3-4FC0-9F6F-B1462F89FD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D18086-7EC3-4FC0-9F6F-B1462F89FD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D18086-7EC3-4FC0-9F6F-B1462F89FD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D18086-7EC3-4FC0-9F6F-B1462F89FD82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC8CF37D-FAC8-4A4C-9E0D-5D76B0EF7473}
+	EndGlobalSection
+EndGlobal
